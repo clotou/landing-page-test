@@ -1,0 +1,63 @@
+/* front and color */
+body{
+  background: #f0e4d7;
+  color: #8f4068;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: #763857;
+  font-weight: lighter;
+  font-size: 30px;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #763857;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+  color: #FF7171;
+}
+a:hover {
+  text-decoration: none;
+  color: red;
+  font-size: 25px
+}
+
+/* Custom design */
+#banner {
+    background-image: url(https://picsum.photos/seed/picsum/1000/600);
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#banner p{
+  opacity: 0.7;
+
+}
+
+.card {
+  padding: 50px;
+  text-align: center;
+}
+
+
+#footer {
+  background: #F2EDD7;
+  font-size: 15;
+  padding: 5px 50px;
+  text-align: left;
+}
+
+#footer a {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+#footer a:hover {
+  color: black;
+}
